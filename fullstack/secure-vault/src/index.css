@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:iclstal,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+/* Now you can define variables or global styles */
+@theme inline {
+  --color-background: #0E0F11;
+  --color-foreground: #161719;
+  --color-selected: #2A2D34;
+  --color-list: #1E1F23;
+  --color-header: #161719;
+  --color-active: #15181D;
+  --color-primary: #1F5DC2;
+  --color-active-hover: #333B47;
+  --color-text: #FFFFFF;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+  
