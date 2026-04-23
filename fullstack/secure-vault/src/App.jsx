@@ -1,7 +1,8 @@
+import { Analytics } from "@vercel/analytics/next";
 
 const App = () => {
   return (
-    <div>App</div>
+    <><Analytics /></>
   )
 }
 
